@@ -1,0 +1,50 @@
+.head {
+    padding: 20px 0;
+    color: #fff;
+  }
+
+  .logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+  }
+  .head .icon {
+    margin-left: 10px;
+  }
+
+  header {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 30px;
+  }
+  header .nav {
+    display: flex !important;
+  }
+  header li {
+    margin-right: 40px;
+  }
+  
+  header ul {
+    padding: 30px 20px;
+  }
+  header ul li{
+    font-weight: 500;
+    color: white;
+  }
+  header ul li:hover{
+    /* color: ; */
+    background-color: aqua;
+  }
+  header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  
+  header ul li a:hover {
+    background-color: aqua;
+    color: #5e1093;
+  }
+ 
+  .toggle {
+    display: none;
+  }
+
